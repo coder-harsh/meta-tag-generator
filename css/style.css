@@ -114,8 +114,7 @@ select {
   }
   form input {
     width: 300px;
-    justify-items: center;
-    align-items: center;
+    justify-content: center;
   }
   #gen-btn {
     width: 300px;
