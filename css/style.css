@@ -106,19 +106,15 @@ select {
     height: 100vh;
     margin: 0px auto;
     border-radius: 0px;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
   }
   form {
     flex-direction: column;
     flex-wrap: nowrap;
     margin-left: 10px;
-    justify-content: center;
-    align-items: center;
   }
   form input {
     width: 300px;
+    justify-items: center;
   }
   #gen-btn {
     width: 300px;
