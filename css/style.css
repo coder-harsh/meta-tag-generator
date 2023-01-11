@@ -18,7 +18,7 @@ body::-webkit-scrollbar {
 #container {
   margin: 10px auto;
   border-radius: 12px;
-  background-color: rgb(10, 195, 124);
+  background-color: rgb(5, 246, 214);
   padding: 8px;
   box-shadow: 18px 18px 36px #bebebe, -18px -18px 36px #ffffff;
   width: 80vw;
@@ -28,6 +28,7 @@ body::-webkit-scrollbar {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  border: 1px solid black;
 }
 form {
   display: flex;
@@ -38,11 +39,11 @@ form input {
   padding: 10px;
   margin: 10px;
   border-radius: 12px;
+  background-color: rgb(255, 255, 255);
   outline: none;
   border: 1px solid transparent;
 }
 form input:hover {
-  background-color: rgba(221, 239, 159, 0.578);
   border-color: black;
   transition: all 5s ease;
 }
@@ -60,7 +61,6 @@ label {
 #gen-btn {
   width: auto;
   background-color: white;
-  box-shadow: 3px 5px 5px rgb(0, 0, 0);
   transition: all 1s ease;
   color: black;
   border-color: transparent;
@@ -68,6 +68,7 @@ label {
 }
 #gen-btn:hover {
   background-color: blue;
+  box-shadow: 3px 5px 5px blue;
   font-weight: bold;
   color: #ffffff;
   cursor: pointer;
@@ -84,6 +85,7 @@ select {
   cursor: pointer;
   text-align: center;
   width: 300px;
+  background-color: rgb(254, 255, 255);
 }
 @media screen and (max-width: 961px) {
   #container {
