@@ -7,7 +7,7 @@
   scrollbar-width: 30px;
 }
 body {
-  background-color: #bebebe;
+  background-color: black;
 }
 body::-webkit-scrollbar {
   display: none;
@@ -18,9 +18,9 @@ body::-webkit-scrollbar {
 #container {
   margin: 10px auto;
   border-radius: 12px;
-  background-color: rgb(5, 246, 214);
+  background-color: rgb(255, 255, 255);
   padding: 8px;
-  box-shadow: 18px 18px 36px #bebebe, -18px -18px 36px #ffffff;
+  /* box-shadow: 18px 18px 36px #bebebe, -18px -18px 36px #ffffff; */
   width: 80vw;
   height: 96vh;
   border-radius: 12px;
@@ -41,7 +41,7 @@ form input {
   border-radius: 12px;
   background-color: rgb(255, 255, 255);
   outline: none;
-  border: 1px solid transparent;
+  border: 1px solid black;
 }
 form input:hover {
   border-color: black;
@@ -60,16 +60,16 @@ label {
 }
 #gen-btn {
   width: auto;
-  background-color: white;
+  background-color: rgb(23, 185, 66);
+  font-weight: bold;
   transition: all 1s ease;
-  color: black;
+  color: rgb(255, 255, 255);
   border-color: transparent;
   flex-basis: auto;
 }
 #gen-btn:hover {
-  background-color: blue;
-  box-shadow: 3px 5px 5px blue;
-  font-weight: bold;
+  background-color: rgb(23, 185, 66);
+  opacity: 0.6;
   color: #ffffff;
   cursor: pointer;
 }
@@ -86,6 +86,7 @@ select {
   text-align: center;
   width: 300px;
   background-color: rgb(254, 255, 255);
+  border: 1px solid black;
 }
 @media screen and (max-width: 961px) {
   #container {
