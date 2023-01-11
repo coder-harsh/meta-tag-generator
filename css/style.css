@@ -87,15 +87,9 @@ input[name="result"] {
 @media screen and (max-width: 961px) {
   #container {
     width: 100vw;
-    height: 100vh;
     margin: 0px auto;
     border-radius: 0px;
     justify-content: center;
-  }
-  form {
-    flex-direction: column;
-    flex-wrap: nowrap;
-    margin-left: 10px;
   }
   form input {
     width: 300px;
