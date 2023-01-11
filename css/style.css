@@ -25,7 +25,7 @@ body::-webkit-scrollbar {
   background-color: rgb(29, 28, 44);
   padding: 50px 30px;
   width: 800px;
-  height: 100%;
+  height: auto;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
