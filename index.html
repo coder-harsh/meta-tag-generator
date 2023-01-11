@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meta Tag Generator</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <script src="js/script.js"></script>
+    <div id="container">
+
+        <form action="" name="meta_form">
+            <label for="name">Website Name <input type="text" name="meta_name" id="name"
+                    placeholder="Enter website name here" required size="57">
+            </label>
+            <label for="disc">Website Description <input type="text" id="disc" name="meta_disc"
+                    placeholder="Enter website description here" required size="51">
+            </label>
+            <label for="keywords">Website Keywords <input type="text" id="keywords"
+                    placeholder="Enter website keywords seprated with , here" required size="53">
+            </label>
+            <label for="keywords">Author Name <input type="text" id="keywords"
+                    placeholder="Enter website keywords seprated with , here" required size="58">
+            </label>
+            <label for="keywords">Website Url <input type="text" id="keywords"
+                    placeholder="Enter website keywords seprated with , here" required size="60">
+            </label>
+            <label for="keywords">Website Image Url <input type="text" id="keywords"
+                    placeholder="Enter website keywords seprated with , here" required size="53">
+            </label>
+            <label for="type">Web Page Type
+                <select name="" id="type">
+                    <option value="">Website</option>
+                    <option value="">Article</option>
+                </select>
+            </label>
+            <input type="submit" value="Generate meta data" onclick="metadata()" id="gen-btn">
+            <textarea name="result" id="" cols="30" rows="5" readonly></textarea>
+        </form>
+    </div>
+</body>
+
+</html>

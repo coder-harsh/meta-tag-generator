@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  overflow-y: auto;
+  scrollbar-width: 30px;
+}
+body {
+  background-color: #bebebe;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+#container::-webkit-scrollbar {
+  display: none;
+}
+#container {
+  margin: 10px auto;
+  border-radius: 12px;
+  background-color: rgb(10, 195, 124);
+  padding: 8px;
+  box-shadow: 18px 18px 36px #bebebe, -18px -18px 36px #ffffff;
+  width: 80vw;
+  height: 96vh;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+form input {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 12px;
+  outline: none;
+  border: 1px solid transparent;
+}
+form input:hover {
+  background-color: rgba(221, 239, 159, 0.578);
+  border-color: black;
+  transition: all 5s ease;
+}
+form textarea {
+  background-color: antiquewhite;
+  resize: vertical;
+  border-radius: 12px;
+  justify-items: center;
+}
+label {
+  font-size: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#gen-btn {
+  width: auto;
+  background-color: blue;
+  font-weight: bold;
+  color: #ffffff;
+  cursor: pointer;
+  flex-basis: auto;
+}
+#gen-btn:hover {
+  background-color: white;
+  box-shadow: 3px 5px 5px rgb(0, 0, 0);
+  transition: all 1s ease;
+  color: black;
+  border-color: transparent;
+}
+#resultinp {
+  width: 300px;
+}
+select {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 12px;
+  border-color: transparent;
+  width: 300px;
+  cursor: pointer;
+  text-align: center;
+  width: 300px;
+}
+@media screen and (max-width: 961px) {
+  #container {
+    width: 100vw;
+    height: 100vh;
+    margin: 0px auto;
+    border-radius: 0px;
+  }
+  form {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-left: 10px;
+    justify-content: center;
+  }
+  form input {
+    width: 300px;
+  }
+  #gen-btn {
+    width: 300px;
+  }
+  textarea {
+    width: auto;
+  }
+}
