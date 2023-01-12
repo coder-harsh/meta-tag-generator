@@ -95,7 +95,11 @@ textarea:hover {
   border-color: aqua;
   outline: none;
 }
-
+#copy h5 {
+  color: white;
+  margin: 40px;
+  text-align: center;
+}
 @media screen and (max-width: 961px) {
   #container {
     width: 100vw;
