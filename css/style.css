@@ -95,6 +95,7 @@ select {
 }
 select:hover {
   border-color: aqua;
+  cursor: pointer;
 }
 option {
   text-align: center;
