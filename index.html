@@ -45,16 +45,16 @@
             <label for="img-url">
                 Website Image Url
             </label>
-            <input type="text" id="img-url" name="metaimg_url" placeholder="https://mywebsite.com/image/social.jpg"
+            <input type="url" id="img-url" name="metaimg_url" placeholder="https://mywebsite.com/image/social.jpg"
                 required>
             <label for="refresh-sec">
                 Wesbite Refresh Time (seconds)
             </label>
-            <input type="text" id="refresh-sec" name="meta_refreshsec" placeholder="30" required>
+            <input type="number" id="refresh-sec" name="meta_refreshsec" placeholder="30" required>
             <label for="engine-visit">
                 SearchEngine to revisit website after (days)
             </label>
-            <input type="text" id="engine-visit" name="meta_enginevisit" placeholder="5" required>
+            <input type="number" id="engine-visit" name="meta_enginevisit" placeholder="5" required>
             <input type="button" value="Generate meta data" onclick="metadata()" id="gen-btn">
             <textarea name="result" id="" cols="30" rows="15" placeholder="Generated meta tags will appear here"
                 readonly></textarea>
