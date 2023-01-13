@@ -17,6 +17,11 @@ Generate all essential meta tags for your website in seconds.
 ## Screenshots
 
 ![App Screenshot](https://meta-tag-generator.coderharsh.in/image/meta-tag-screenshot.jpeg)
+
+## Mobile View
+
+![Meta tag generator](https://meta-tag-generator.coderharsh.in/image/mobile-meta.png)
+
 ## Used By
 
 This project is created for:
