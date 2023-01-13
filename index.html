@@ -37,25 +37,26 @@
             <label for="author">
                 Author Name
             </label>
-            <input type="text" id="author" placeholder="Website owner name" required>
+            <input type="text" id="author" name="meta_author" placeholder="Website owner name" required>
             <label for="url">
                 Website Url
             </label>
-            <input type="text" id="url" placeholder="mywebsite.com" required>
+            <input type="url" id="url" name="meta_url" placeholder="mywebsite.com" required>
             <label for="img-url">
                 Website Image Url
             </label>
-            <input type="text" id="img-url" placeholder="https://mywebsite.com/image/social.jpg" required>
+            <input type="text" id="img-url" name="metaimg_url" placeholder="https://mywebsite.com/image/social.jpg"
+                required>
             <label for="refresh-sec">
                 Wesbite Refresh Time (seconds)
             </label>
-            <input type="text" id="refresh-sec" placeholder="30" required>
+            <input type="text" id="refresh-sec" name="meta_refreshsec" placeholder="30" required>
             <label for="engine-visit">
                 SearchEngine to revisit website after (days)
             </label>
-            <input type="text" id="engine-visit" placeholder="5" required>
-            <input type="submit" value="Generate meta data" onclick="metadata()" id="gen-btn">
-            <textarea name="result" id="" cols="30" rows="10" placeholder="Generated meta tags will appear here"
+            <input type="text" id="engine-visit" name="meta_enginevisit" placeholder="5" required>
+            <input type="button" value="Generate meta data" onclick="metadata()" id="gen-btn">
+            <textarea name="result" id="" cols="30" rows="15" placeholder="Generated meta tags will appear here"
                 readonly></textarea>
 
         </form>

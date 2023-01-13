@@ -86,9 +86,8 @@ textarea {
   border-radius: 12px;
   border-color: transparent;
   color: white;
-  text-indent: 20px;
   resize: none;
-  padding: 5px;
+  padding: 20px;
   margin-top: 10px;
 }
 textarea:hover {
