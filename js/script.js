@@ -1,5 +1,5 @@
 function metadata() {
-    if (meta_form.meta_name.value == "") {
+    if (meta_form.meta_name.value == "" && meta_form.meta_disc.value == "" && meta_form.meta_key.value == "" && meta_form.meta_author.value == "") {
         alert("Sorry, Please enter required value");
     }
     else {
