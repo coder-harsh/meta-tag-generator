@@ -96,7 +96,7 @@ label {
   border-radius: 10px;
 }
 #copy-btn:hover {
-  opacity: 0.6;
+  background-color: rgb(61, 221, 12);
 }
 textarea {
   background-color: rgb(40, 39, 61);
