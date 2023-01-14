@@ -82,14 +82,18 @@ label {
   cursor: pointer;
 }
 #copy-btn {
-  width: 100px;
+  width: 80px;
   margin: 0px auto;
   border-color: transparent;
   cursor: pointer;
-  background-color: rgb(61, 221, 12);
+  background-color: rgb(1, 64, 254);
   padding: 10px;
   position: relative;
   bottom: 43px;
+  color: white;
+  font-weight: 600;
+  font-size: bold;
+  border-radius: 10px;
 }
 #copy-btn:hover {
   opacity: 0.6;
