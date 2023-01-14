@@ -74,13 +74,26 @@ label {
   justify-items: center;
   margin: 14px auto;
 }
+
 #gen-btn:hover {
   background-color: rgb(204, 47, 3);
   opacity: 0.6;
   color: #ffffff;
   cursor: pointer;
 }
-
+#copy-btn {
+  width: 100px;
+  margin: 0px auto;
+  border-color: transparent;
+  cursor: pointer;
+  background-color: rgb(61, 221, 12);
+  padding: 10px;
+  position: relative;
+  bottom: 60px;
+}
+#copy-btn:hover {
+  opacity: 0.6;
+}
 textarea {
   background-color: rgb(40, 39, 61);
   border-radius: 12px;
