@@ -94,9 +94,10 @@ label {
   font-weight: 600;
   font-size: bold;
   border-radius: 10px;
+  display: none;
 }
 #copy-btn:hover {
-  background-color: rgb(61, 221, 12);
+  background-color: rgb(5, 251, 214);
 }
 textarea {
   background-color: rgb(40, 39, 61);
@@ -106,6 +107,7 @@ textarea {
   resize: none;
   padding: 20px;
   margin-top: 10px;
+  display: none;
 }
 textarea:hover {
   border-color: aqua;
@@ -122,6 +124,9 @@ textarea:hover {
     margin: 0px auto;
     border-radius: 0px;
     justify-content: center;
+  }
+  textarea {
+    height: 390px;
   }
   form input {
     width: 300px;

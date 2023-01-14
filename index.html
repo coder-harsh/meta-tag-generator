@@ -33,7 +33,6 @@
 
 <body>
     <script src="js/script.js"></script>
-
     <h3 id="head">Meta Tag Generator</h3>
 
     <div id="container">
@@ -67,19 +66,32 @@
             <label for="refresh-sec">
                 Wesbite Refresh Time (seconds)
             </label>
-            <input type="number" id="refresh-sec" name="meta_refreshsec" placeholder="30" required>
+            <input type="number" id="refresh-sec" name="meta_refreshsec" placeholder="30">
             <label for="engine-visit">
                 SearchEngine to revisit website after (days)
             </label>
-            <input type="number" id="engine-visit" name="meta_enginevisit" placeholder="5" required>
+            <input type="number" id="engine-visit" name="meta_enginevisit" placeholder="5">
             <input type="button" value="Generate meta data" onclick="metadata()" id="gen-btn">
-            <textarea name="result" id="" cols="30" rows="15" placeholder="Result" readonly></textarea>
-            <button id="copy-btn">Copy <i class="fa-regular fa-clipboard"></i></button>
+            <textarea name="result" id="resultinp" cols="30" rows="15" placeholder="Result" readonly
+                class="resulttxt"></textarea>
+            <!-- <button id="copy-btn" class="btn-copy" name="copybtn">Copy <i class="fa-regular fa-clipboard"></i></button> -->
+            <input type="button" value="Copy 📋" id="copy-btn" class="btn-copy" name="copybtn"
+                onclick="checkresulttext()">
         </form>
     </div>
     <div id="copy">
         <h5>Copyright &copy; 2023 • Meta Tag Generator</h5>
     </div>
+    <script>
+        let btn = document.querySelector('.btn-copy');
+        btn.addEventListener("click", function () {
+            let txt = document.querySelector('.resulttxt');
+            txt.select();
+            document.execCommand('copy');
+            document.meta_form.copybtn.value = "Copied ✓";
+            document.getElementById("copy-btn").style.backgroundColor = "green";
+        });
+    </script>
 </body>
 
 </html>
